@@ -58,7 +58,7 @@ describe('pending', function () {
             done(err);
             return;
           }
-          assert.equal(res.stats.pending, 2);
+          assert.equal(res.stats.pending, 3);
           assert.equal(res.stats.passes, 0);
           assert.equal(res.stats.failures, 0);
           assert.equal(res.code, 0);
@@ -108,7 +108,7 @@ describe('pending', function () {
             done(err);
             return;
           }
-          assert.equal(res.stats.pending, 2);
+          assert.equal(res.stats.pending, 3);
           assert.equal(res.stats.passes, 0);
           assert.equal(res.stats.failures, 0);
           assert.equal(res.code, 0);

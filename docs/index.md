@@ -594,6 +594,8 @@ before(function() {
 });
 ```
 
+This will skip all the tests and beforeEach/afterEach hooks in the current suite, and all hooks and tests of any child suites. It will, however, continue running the before all and after all hooks of the current suite.
+
 > Before Mocha v3.0.0, `this.skip()` was not supported in asynchronous tests and hooks.
 
 ## Retry Tests
